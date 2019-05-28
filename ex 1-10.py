@@ -28,6 +28,21 @@ def bracket_pattern(input_str):
 input_str="(())("
 print(bracket_pattern(input_str))
 
+#----or---
+#pf-prac-2
+def bracket(input_str):
+    length=len(input_str)
+    if(length%2!=0):
+        return False
+    elif input_str[0]==")" or input_str=="(":
+        return False
+    else:
+        return True
+input_str=input("")        
+print(bracket(input_str))
+   
+
+
 
 #PF-Prac-3
 
